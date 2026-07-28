@@ -1,1 +1,83 @@
-.
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>HelpDesk Pro - Login</title>
+
+<link rel="stylesheet" href="css/style.css">
+
+</head>
+
+
+<body class="login-body">
+
+
+<div class="login-box">
+
+<h1>
+🛠 HelpDesk Pro
+</h1>
+
+<p>
+Sistema de gerenciamento de chamados TI
+</p>
+
+
+<input 
+id="username"
+placeholder="Usuário"
+>
+
+
+<input 
+id="password"
+type="password"
+placeholder="Senha"
+>
+
+
+<button onclick="login()">
+Entrar
+</button>
+
+
+<p id="error"></p>
+
+
+<div class="demo">
+
+<h3>Acesso demonstração</h3>
+
+<p>
+Admin:
+admin / 1234
+</p>
+
+<p>
+Técnico:
+tecnico / 1234
+</p>
+
+<p>
+Usuário:
+usuario / 1234
+</p>
+
+
+</div>
+
+
+</div>
+
+
+<script src="js/storage.js"></script>
+<script src="js/auth.js"></script>
+
+
+</body>
+
+</html>
